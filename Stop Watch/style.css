@@ -1,0 +1,50 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(71, 65, 65, 0.353);
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    color:rgb(72, 45, 5) ;
+}
+.MainControl{
+    border: 5px solid;
+    font-family:monospace;
+    font-size: 4em;
+    background-color: rgb(237, 239, 241);
+    border-radius: 50px;
+    margin: 20px;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 20px;
+    min-width: 125px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.5s ease;
+    font-weight: bold;
+}
+#Startbtn{
+    background-color: rgb(47, 255, 99);
+}
+#Startbtn:hover{
+    background-color: rgb(9, 167, 49);
+}
+#Stopbtn{
+    background-color: rgb(255, 47, 47);
+}
+#Stopbtn:hover{
+    background-color: rgb(153, 11, 11);
+}
+#resetbtn{
+    background-color: rgb(61, 47, 255);
+}
+#resetbtn:hover{
+    background-color: rgb(22, 13, 159);
+}
